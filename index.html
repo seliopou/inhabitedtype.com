@@ -1,13 +1,30 @@
----
-layout: default
-title: Your New Jekyll Site
----
+<!DOCTYPE html>
 
-<div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+<style>
+    body {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        width: 640px;
+        margin: auto;
+        margin-top: 40px;
+
+    }
+
+    div {
+        font-size: 96px;
+        line-height: 1.2em;
+    }
+
+    footer {
+        color: gray;
+        margin-top: 20px;
+    }
+
+</style>
+
+<div>
+    inhabited&nbsp;&#x22a2; type
 </div>
+<footer>
+  <hr>
+  &#x00a9; 2014 Inhabited Type LLC, All Rights Reserved.
+</footer>
